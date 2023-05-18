@@ -1,3 +1,16 @@
 .sidebar {
-    width: 25%;
+  background-color: $color-black;
+  flex: 1 0 150px;
+  ul {
+    li {
+      padding: 14px 0 11px 6px;
+      border-bottom: 1px solid #5c5c5c;
+      a {
+        color: $color-white;
+        text-decoration: none;
+        font-weight: $fw-3;
+        line-height: $lh-1;
+      }
+    }
+  }
 }
